@@ -10,7 +10,7 @@
         "psr-4": {
             "LaravelHelpers\\": "src"
         },
-        "files": ['src/laravelherpers.function.php']
+        "files": ['src/laravelhelpers.function.php']
     },
     "authors": [
         {
