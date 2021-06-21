@@ -1,0 +1,22 @@
+{
+    "name": "umuttan/laravel-helpers",
+    "description": "Laravel custom helpers",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelHelpers\\": "src"
+        },
+        "files": ['src/laravelherpers.function.php']
+    },
+    "authors": [
+        {
+            "name": "Umut Tan",
+            "email": "umuttan@outlook.com",
+            "homepage": "https://www.github.com/umuttan/"
+        }
+    ]
+}
