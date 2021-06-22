@@ -1,10 +1,9 @@
 <?php
 
-function __($key = null, $replace = [], $locale = null)
-{
-    if (is_null($key)) {
-        return $key;
-    }
+use LaravelHelpers\Helpers as Helpers;
 
-    return trans($key, $replace, $locale);
+function hl($key = null, $model_id = null, $model = 'systems', $locale = null)
+{
+    $helpers = new Helpers();
+    return $helpers->__($key, $model_id, $model, $locale);
 }
